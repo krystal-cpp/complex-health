@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+.card-prev.swiper-button-disabled,
+.card-next.swiper-button-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.product-info-bg {
+  background-image: url("data:image/svg+xml;utf8,<svg width='375' height='1940' viewBox='0 0 375 1940' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M-510.503 1936.8C-495.604 1774.29 -492.566 1511.99 -282.691 1278.97C-20.3479 987.686 471.092 996.723 459.015 759.825C449.909 581.191 -61.7514 635.104 -4.55636 429.849C38.7212 274.538 621.586 71.3841 747.188 23.8492' stroke='%23DAE2EA' stroke-opacity='0.7' stroke-width='51'/></svg>");
+  background-size: 100% auto;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1280px) {
+  .product-info-bg {
+    background-image:
+      url("data:image/svg+xml;utf8,<svg width='1920' height='734' viewBox='0 0 1920 734' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M-108 713.5C19.8031 612.02 211.574 433.033 525.043 423.835C916.879 412.337 1249.8 773.94 1412.76 601.572C1535.64 471.598 1143.23 138.855 1331.16 38.4344C1473.36 -37.5506 2022.87 243.593 2144 301.581' stroke='%23DAE2EA' stroke-opacity='0.7' stroke-width='51'/></svg>"),
+      url("data:image/svg+xml;utf8,<svg width='1920' height='958' viewBox='0 0 1920 958' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M2456 909.804C2117.28 1085.91 1673 144.769 1199 258.382C1036.57 297.315 1023 435.594 757.5 475.729C476 518.282 4.29972 60.1613 -110 24.3325' stroke='%23DAE2EA' stroke-opacity='0.7' stroke-width='51'/></svg>");
+    background-size: 100% auto, 100% auto;
+    background-position: center 0px, center 1500px;
+    background-repeat: no-repeat, no-repeat;
+  }
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap; 
+}
+
+@font-face {
+    font-family: 'YourFont';
+    src: url('/fonts/Onest.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap; 
+}
