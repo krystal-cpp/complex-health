@@ -3,23 +3,10 @@
 
 export default function Hero() {
     return (
-        <div className='relative px-4 xl:px-10 pb-10 xl:pb-30 w-full flex flex-col xl:grid xl:grid-cols-[auto_auto] bg-[#2F9DCF]'>
+        <div className='relative px-4 xl:px-10 pb-10 xl:pb-30 w-full flex flex-col xl:grid xl:grid-cols-[auto_auto] '>
             <div
                 className='hidden xl:block absolute inset-y-0 right-0 w-full bg-no-repeat bg-center pointer-events-none'
-                style={{
-                    backgroundImage: "url('/bg-hero-xl.webp')",
-                    backgroundSize: '100% auto',
-                    backgroundPosition: 'right center',
-                    backgroundRepeat: 'no-repeat',
-                    WebkitMaskSize: '70% auto, 70% auto',
-                    maskSize: '70% auto, 70% auto',
-                    WebkitMaskPosition: 'right center, right center',
-                    maskPosition: 'right center, right center',
-                    WebkitMaskRepeat: 'no-repeat',
-                    maskRepeat: 'no-repeat',
-                    WebkitMaskComposite: 'source-in',
-                    maskComposite: 'intersect',
-                }}
+                
             />
             <h1 className='text-6xl/14 xl:text-9xl/28 xl:pt-20 xl:z-10 text-white flex flex-col xl:col-span-1 pt-5'>
                 <span>Свобода</span>

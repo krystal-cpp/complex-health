@@ -10,12 +10,18 @@ import { FAQ } from './Components/FAQAccordion/FAQAccordion'
 import QuestionsForm from './Components/QuestionsForm/QuestionsForm'
 import Footer from './Components/Footer/Footer'
 
+// ТАКОЙ ФИКС С БЭКГРАУНДОМ НА КОМПОНЕНТ HERO И HEADER ПРЕДЛОЖИЛ ИИ, Я ВНЕС НЕБОЛЬШИЕ ПРАВКИ И ПОЛУЧИЛОСЬ ХОРОШО
 function App() {
   return (
     <div className='overflow-x-hidden bg-[#F3F3F3]'>
-      <Header />
+      <div className="relative bg-[#2F9DCF] xl:bg-transparent xl:bg-[url('/bg-hero-xl.webp')] xl:bg-no-repeat xl:bg-right xl:bg-cover">
+        <Header />
+        <main>
+          <Hero />
+        </main>
+      </div>
+
       <main>
-        <Hero />
         <TargetAudience />
         <ProductInfo />
         <Ingredients />

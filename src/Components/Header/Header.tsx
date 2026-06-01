@@ -22,7 +22,7 @@ export default function Header() {
 
     return (
         <header>
-            <div className='bg-[#2F9DCF] px-4 xl:px-10 xl:py-6 py-2 flex items-center justify-between'>
+            <div className=' px-4 xl:px-10 xl:py-6 py-2 flex items-center justify-between'>
                 <a className='xl:hidden flex' aria-label='Меню' onClick={() => setIsMenuOpen(!isMenuOpen)}>
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6 14H34" stroke="white" stroke-width="2" stroke-linecap="round" />
