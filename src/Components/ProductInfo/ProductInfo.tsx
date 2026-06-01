@@ -1,3 +1,5 @@
+// В ЭТОМ КОМПОНЕНТЕ ИИ ПОМОГ РАЗМЕСТИТЬ SVG НА ФОНЕ НА РАЗНЫХ УСТРОЙСТВАХ, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useRef } from 'react';
 import { Navigation } from "swiper/modules";
@@ -114,8 +116,8 @@ export const ProductInfo = () => {
                 </div>
             </div>
             <div className='hidden xl:flex justify-center items-center gap-32 pt-70'>
-                <img loading='lazy' className='w-175 h-140' src='/jar-info.webp' alt='Суставы БАД COMPLEX SW Оптисалт'/>
-                <img loading='lazy' className='w-175 h-140' src='/jar-info.webp' alt='Суставы БАД COMPLEX SW Оптисалт'/>
+                <img loading='lazy' className='w-175 h-140' src='/jar-info.webp' alt='Суставы БАД COMPLEX SW Оптисалт' />
+                <img loading='lazy' className='w-175 h-140' src='/jar-info.webp' alt='Суставы БАД COMPLEX SW Оптисалт' />
             </div>
 
             <div className='xl:hidden flex flex-col gap-2'>
@@ -132,6 +134,7 @@ export const ProductInfo = () => {
                 <img loading='lazy' className='' src='/jar-info.webp' alt='Суставы БАД COMPLEX SW Оптисалт' />
             </div>
 
+            {/* СВАЙПЕР СДЕЛАЛ ПОЛНОСТЬЮ САМ, ВЗЯЛ ИЗ ПРОШЛЫХ ПРОЕКТОВ */}
             <div className='pt-22 relative xl:hidden'>
                 <Swiper className='overflow-visible!'
                     spaceBetween={16}
@@ -253,20 +256,20 @@ export const ProductInfo = () => {
                     <p className='text-xl/6 xl:text-2xl xl:px-20 text-black'>БАД «Complex SW СУСТАВЫ» от Оптисалт решает три главные задачи здоровья суставов</p>
                 </div>
                 <div className='flex justify-center'>
-                <a aria-label='Оставить заявку' href='#questions-form' className='bg-[#3193CC] rounded-4xl px-4 py-1.5 xl:px-6 xl:py-2 text-white text-base xl:text-2xl font-medium'>
-                    Оставить заявку
-                </a>
-                <a aria-label='Оставить заявку' href='#questions-form' className='bg-[#3193CC] rounded-full w-10 h-10 xl:w-14 xl:h-14 flex items-center justify-center'>
-                    <svg
-                        className='w-6 h-6 xl:w-8 xl:h-8 text-white transform -rotate-45 ml-1 mb-1'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'>
-                        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7 M16 12l-12 0' />
-                    </svg>
-                </a>
+                    <a aria-label='Оставить заявку' href='#questions-form' className='bg-[#3193CC] rounded-4xl px-4 py-1.5 xl:px-6 xl:py-2 text-white text-base xl:text-2xl font-medium'>
+                        Оставить заявку
+                    </a>
+                    <a aria-label='Оставить заявку' href='#questions-form' className='bg-[#3193CC] rounded-full w-10 h-10 xl:w-14 xl:h-14 flex items-center justify-center'>
+                        <svg
+                            className='w-6 h-6 xl:w-8 xl:h-8 text-white transform -rotate-45 ml-1 mb-1'
+                            fill='none'
+                            stroke='currentColor'
+                            viewBox='0 0 24 24'>
+                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M9 5l7 7-7 7 M16 12l-12 0' />
+                        </svg>
+                    </a>
+                </div>
             </div>
-            </div> 
         </div>
     );
 }

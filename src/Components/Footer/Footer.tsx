@@ -1,3 +1,4 @@
+// ЭТОТ КОМПОНЕНТ СДЕЛАЛ ПОЛНОСТЬЮ САМ, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
 export default function Footer() {
     return (
         <footer className='pt-10 px-4 xl:px-10 pb-4 flex flex-col xl:flex-row gap-8'>

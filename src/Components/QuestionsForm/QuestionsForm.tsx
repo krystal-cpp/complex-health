@@ -1,3 +1,5 @@
+// САМ СДЕЛАЛ ЭТОТ КОМПОНЕНТ, ПОЧТИ ВЕСЬ КОМПОНЕНТ ПОЛУЧИЛОСЬ ВЗЯТЬ ИЗ ПРОШЛЫХ ПРОЕКТОВ, ИИ НЕМНОГО ПОМОГАЛ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 export default function QuestionsForm() {
     return (
         <div className='px-4 xl:px-10'>
@@ -65,15 +67,15 @@ export default function QuestionsForm() {
                             <div className='flex flex-col xl:flex-row gap-2 xl:gap-6'>
                                 <div className='flex flex-col flex-1 gap-1'>
                                     <label htmlFor='name' className='text-sm xl:text-base'>Имя</label>
-                                    <input id='name' type='text' placeholder="Как к вам обращаться" className='bg-[#F3F3F3] rounded-xl p-4' />
+                                    <input id='name' required type='text' placeholder="Как к вам обращаться" className='bg-[#F3F3F3] rounded-xl p-4' />
                                 </div>
                                 <div className='flex flex-col flex-1 gap-1'>
                                     <label htmlFor='phone' className='text-sm xl:text-base'>Телефон</label>
-                                    <input id='phone' type='tel' placeholder="+7 (___) ___-__-__" className='bg-[#F3F3F3] rounded-xl p-4' />
+                                    <input id='phone' required type='tel' placeholder="+7 (___) ___-__-__" className='bg-[#F3F3F3] rounded-xl p-4' />
                                 </div>
                                 <div className='flex flex-col flex-1 gap-1'>
                                     <label htmlFor='email' className='text-sm xl:text-base'>Эл. почта</label>
-                                    <input id='email' type='email' placeholder="Ваша эл.почта" className='bg-[#F3F3F3] rounded-xl p-4' />
+                                    <input id='email' required type='email' placeholder="Ваша эл.почта" className='bg-[#F3F3F3] rounded-xl p-4' />
                                 </div>
                             </div>
                             <div className='flex items-start gap-2'>

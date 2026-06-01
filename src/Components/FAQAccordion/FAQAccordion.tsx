@@ -5,6 +5,8 @@ type FAQAccordionProps = {
     children: React.ReactNode;
 };
 
+// ЭТОТ КОМПОНЕНТ СДЕЛАЛ ПОЛНОСТЬЮ САМ, ВЗЯЛ ИЗ ПРОШЛЫХ ПРОЕКТОВ, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 const FAQAccordion = ({ title, children }: FAQAccordionProps) => {
     const [isOpen, setIsOpen] = useState(false);
 

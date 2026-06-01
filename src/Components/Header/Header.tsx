@@ -17,6 +17,8 @@ export default function Header() {
     const handleLinkClick = () => {
         setIsMenuOpen(false);
     };
+    
+    // ТУТ ИИ ИМПРОВИЗИРОВАЛ И СДЕЛАЛ БУРГЕР МЕНЮ, КОТОРОГО НЕТ В МАКЕТЕ, НО ЕСТЬ КНОПКА БУРГЕР, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
 
     return (
         <header>

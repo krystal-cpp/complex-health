@@ -1,3 +1,5 @@
+// ЭТОТ КОМПОНЕНТ СДЕЛАЛ ПОЛНОСТЬЮ САМ, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 export default function Ingredients() {
     return (
         <div id='ingredients' className='px-4 xl:px-10 pt-16'>
@@ -76,7 +78,6 @@ export default function Ingredients() {
                         </div>
                     </div>
                 </div>
-
 
                 <div className='flex xl:hidden flex-col gap-4'>
                     <div className='flex flex-col gap-1'>

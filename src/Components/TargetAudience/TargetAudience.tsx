@@ -1,3 +1,5 @@
+// САМ СДЕЛАЛ ЭТОТ КОМПОНЕНТ, ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 export default function TargetAudience() {
     return (
         <div id='target-audience' className='px-4 xl:px-10 pt-10 pb-20 xl:pt-40'>

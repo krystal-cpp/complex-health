@@ -27,7 +27,26 @@ html {
     background-repeat: no-repeat, no-repeat;
   }
 }
+/* ИДЕЮ ДЛЯ ТАКОГО ФИКСА ПРЕДОСТАВИЛ CODEX */
+/* ФИКС ДАЕТ ВОЗМОЖНОСТЬ ИСПОЛЬЗОВАТЬ SVG НА ФОНЕ */
 
+.price-card-bg {
+  background-image: url('/price-card-bg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 1280px) {
+  .price-card-bg {
+    background-image: url('/price-card-bg-xl.webp');
+    background-size: cover;
+    background-position: center;
+  }
+}
+/* ИДЕЮ ДЛЯ ТАКОГО ФИКСА ПРЕДОСТАВИЛ CODEX */
+
+/* ПОДКЛЮЧИЛ ШРИФТ ЛОКАЛЬНО ДЛЯ ОПТИМИЗАЦИИ ПРОИЗВОДИТЕЛЬНОСТИ */
 @font-face {
     font-family: 'YourFont';
     src: url('/fonts/Onest.ttf') format('ttf');

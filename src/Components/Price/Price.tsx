@@ -1,3 +1,5 @@
+//ИИ ПОМОГ С ОПТИМИЗАЦИЕЙ SEO, ПРОИЗВОДИТЕЛЬНОСТИ И ДОСТУПНОСТИ
+
 export default function Price() {
     return (
         <div id='price' className='px-4 xl:px-10 pt-16 xl:pt-30'>
@@ -10,6 +12,7 @@ export default function Price() {
                 </div>
             </div>
 
+            {/* ТУТ ИИ ПОМОГ ГРАМОТНО РАССТАВИТЬ ТЕКСТ И БАНКУ, ЧТОБЫ ОНА НЕ РАЗЪЕЗЖАЛАСЬ НА ВСЕХ ЭКРАНАХ */}
             <div className='pt-11 flex xl:hidden items-start'>
                 <div className='flex-1 flex flex-col'>
                     <div className='flex flex-col gap-8 pt-4'>
@@ -105,10 +108,10 @@ export default function Price() {
                                     <p className='text-[#808080] text-xl'>30 порций = 130₽ в день</p>
                                 </div>
                                 <div className='flex'>
-                                    <a aria-label='Купить в 1 клик' href='#' className='bg-[#3193CC] rounded-4xl px-6 py-2 text-white text-2xl font-medium'>
+                                    <a aria-label='Купить в 1 клик' href='https://example.com' className='bg-[#3193CC] rounded-4xl px-6 py-2 text-white text-2xl font-medium'>
                                         Купить в 1 клик
                                     </a>
-                                    <a href='#' aria-label='Купить в 1 клик' className='bg-[#3193CC] rounded-full w-14 h-14 flex items-center justify-center'>
+                                    <a href='https://example.com' aria-label='Купить в 1 клик' className='bg-[#3193CC] rounded-full w-14 h-14 flex items-center justify-center'>
                                         <svg
                                             className='w-8 h-8 text-white transform -rotate-45 ml-1 mb-1'
                                             fill='none'
@@ -125,11 +128,7 @@ export default function Price() {
             </div>
 
             <div className='flex flex-col pt-16 gap-2 xl:gap-6 xl:flex-row xl:pt-30'>
-                <div id='price-card' className='flex-1 flex flex-col gap-4 py-10 px-7 xl:py-20 xl:px-40 xl:gap-8 items-center justify-between text-center rounded-4xl bg-no-repeat bg-bottom'
-                    style={{
-                        backgroundImage: "url('/price-card-bg.png')",
-                        backgroundSize: 'cover'
-                    }}>
+                <div id='price-card' className='price-card-bg flex-1 flex flex-col gap-4 py-10 px-7 xl:py-20 xl:px-40 xl:gap-8 xl:bg-size-90% items-center justify-between text-center rounded-4xl'>
                     <h2 className='text-xl/6 xl:text-3xl font-medium text-white'>«Complex SW СУСТАВЫ» для опорно-двигательного аппарата</h2>
                     <img loading='lazy' className='w-50 h-70 xl:w-115 xl:h-145 shrink-0' src='jar-price-card.webp' alt='Суставы БАД COMPLEX SW Оптисалт' />
                     <div className='text-white flex flex-col gap-2'>
