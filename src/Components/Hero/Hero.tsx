@@ -86,7 +86,7 @@ export default function Hero() {
             </div>
 
             <div className='xl:hidden block -mx-4 bg-no-repeat bg-center relative'
-                style={{ backgroundImage: "url('/bg-hero.svg')", backgroundSize: '100%' }}>
+                style={{ backgroundImage: "url('/bg-hero.webp')", backgroundSize: '100%' }}>
                 <div className='absolute inset-x-0 top-0 h-10'
                     style={{ background: 'linear-gradient(0deg, rgba(47,157,207,0) 0%, #2F9DCF 100%)' }} />
                 <div className='absolute inset-x-0 bottom-0 h-10'
