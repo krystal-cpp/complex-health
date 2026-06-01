@@ -67,10 +67,10 @@
 | Оптимизация | Реализация |
 |-------------|------------|
 | **Шрифты** | Локальное подключение (`@font-face`), `font-display: swap` |
-| **Изображения** | Формат WebP, lazy-loading, адаптивные размеры |
-| **CSS** | Tailwind + PostCSS, минификация, критический CSS |
-| **JS** | Code splitting, tree shaking, минификация |
-| **Мета-теги** | Open Graph, Twitter Cards, базовый SEO |
+| **Изображения** | Формат WebP, lazy-loading, alt, адаптивные размеры |
+| **Доступность** | Семантическая верстка, `aria-label`, hover |
+| **Адаптив** | Mobile-first, Pixel Perfect, брейкпоинты Tailwind, резиновые сетки |
+| **Мета-теги** | Open Graph, SEO, Key Words, Description |
 
 ---
 
